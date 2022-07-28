@@ -69,7 +69,7 @@ function holdDice() {
   if (playTheGame) {
     totalScores[currentPlayer] += currentScores[currentPlayer];
     displayTotalScore();
-    if (totalScores[currentPlayer] >= 10) {
+    if (totalScores[currentPlayer] >= 50) {
       console.log(`Player--${currentPlayer + 1} is the winner`);
       document
         .querySelector(`.player--${currentPlayer}`)
